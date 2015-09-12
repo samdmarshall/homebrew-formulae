@@ -1,4 +1,4 @@
-class AOSD < Formula
+class Aosd < Formula
   desc "Apple Open Source Downloader"
   homepage "https://github.com/samdmarshall/AOS-Downloader"
   head "https://github.com/samdmarshall/AOS-Downloader.git"

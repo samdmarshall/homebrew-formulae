@@ -1,4 +1,4 @@
-class MAI < Formula
+class Mai < Formula
   desc "External Xcode scheme build tool"
   homepage "https://github.com/samdmarshall/Mai"
   head "https://github.com/samdmarshall/Mai.git"

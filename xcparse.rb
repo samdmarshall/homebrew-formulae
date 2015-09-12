@@ -1,4 +1,4 @@
-class XCPARSE < Formula
+class Xcparse < Formula
   desc "Library to interact with the Xcode Build System"
   homepage "https://github.com/samdmarshall/xcparse"
   head "https://github.com/samdmarshall/xcparse.git"
