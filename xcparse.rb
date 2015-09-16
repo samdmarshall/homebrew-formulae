@@ -4,6 +4,7 @@ class Xcparse < Formula
   head "https://github.com/samdmarshall/xcparse.git"
 
   depends_on :python if MacOS.version <= :snow_leopard
+  depends_on :xcode
   
   def install
     ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
