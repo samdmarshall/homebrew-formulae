@@ -1,4 +1,4 @@
-class IOSConsole < Formula
+class Iosconsole < Formula
   desc "CLI tool to interact with iOS Devices"
   homepage "https://github.com/samdmarshall/SDMMobileDevice"
   head "https://github.com/samdmarshall/SDMMobileDevice.git"
