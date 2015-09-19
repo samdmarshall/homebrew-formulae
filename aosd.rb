@@ -1,7 +1,7 @@
 class Aosd < Formula
   desc "Apple Open Source Downloader"
   homepage "https://github.com/samdmarshall/AOS-Downloader"
-  head "https://github.com/samdmarshall/AOS-Downloader.git"
+  head "https://github.com/samdmarshall/AOS-Downloader.git", :tag => "v1.0"
   
   depends_on :python if MacOS.version <= :snow_leopard
   
