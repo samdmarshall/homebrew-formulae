@@ -23,6 +23,7 @@ class Privatesdks < Formula
       temp_path.delete!("\n")
       FileUtils.mv temp_path, additional_sdk_dir
       puts "* To use '"+file+"', set the ADDITIONAL_SDKS build setting to '${USER_LIBRARY_DIR}/Developer/AdditionalSDKs/"+file+"'\n"
+      puts "\n"
     end
     puts "\nInstalled SDKs to '"+additional_sdk_dir+"'!"
   end
