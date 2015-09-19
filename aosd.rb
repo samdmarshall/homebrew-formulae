@@ -3,7 +3,7 @@ class Aosd < Formula
   homepage "https://github.com/samdmarshall/AOS-Downloader"
   head "https://github.com/samdmarshall/AOS-Downloader.git"
   url "https://github.com/samdmarshall/AOS-Downloader/archive/v1.0.tar.gz"
-  sha256 "207388387fd40bbbfd32f4950e57a5c38d62ee369b9bab249ff7345bf119b5ea"
+  sha256 "9a960d3871c7398809f8d136b1656518011568cfa9af148ad8d0e3b132799f6d"
   
   
   depends_on :python if MacOS.version <= :snow_leopard
