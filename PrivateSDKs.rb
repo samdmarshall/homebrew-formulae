@@ -15,7 +15,7 @@ class Privatesdks < Formula
       sdk_dir = additional_sdk_dir+"/"+file
       sdk_dir.delete!("\n")
       if File.exist?(sdk_dir)
-        puts "Removing old versions of '"+file+"'..."
+        puts "Removing old version of '"+file+"'..."
         FileUtils.rm_r sdk_dir
       end
       puts "Installing '"+file+"'..."
@@ -24,6 +24,6 @@ class Privatesdks < Formula
       FileUtils.mv temp_path, additional_sdk_dir
       puts "* To use '"+file+"', set the ADDITIONAL_SDKS build setting to '${USER_LIBRARY_DIR}/Developer/AdditionalSDKs/"+file+"'\n"
     end
-    puts "Installed SDKs to '"+additional_sdk_dir+"'!"
+    puts "\nInstalled SDKs to '"+additional_sdk_dir+"'!"
   end
 end
