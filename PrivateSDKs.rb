@@ -4,7 +4,7 @@ class Privatesdks < Formula
   head "https://github.com/samdmarshall/OSXPrivateSDK.git"
   
   def install
-    system "mkdir -p ~/Library/Developer/AdditionalSDKS/"
-    mv "*.sparse.sdk" "~/Library/Developer/AdditionalSDKS/"
+    system "mkdir", "-p", "~/Library/Developer/AdditionalSDKS/"
+    mv "*.sparse.sdk", "~/Library/Developer/AdditionalSDKS/"
   end
 end
