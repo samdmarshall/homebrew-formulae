@@ -6,6 +6,6 @@ class Iosconsole < Formula
   sha256 "ab18c419ee40999128220438130946943925703f498c72cbdbd3fd43f1adfd09"
   
   def install
-    bin.install Dir[libexec/"bin/*"]
+    bin.install "iOSConsole"
   end
 end

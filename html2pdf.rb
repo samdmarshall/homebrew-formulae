@@ -6,6 +6,6 @@ class Html2pdf < Formula
   sha256 "ff6f64d0767e34c4d4bf029532d80a6a27f718aea587604d558dcfe7bfe40f92"
   
   def install
-    bin.install Dir[libexec/"bin/*"]
+    bin.install "html2pdf"
   end
 end
