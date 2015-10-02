@@ -1,4 +1,4 @@
-class Xcrunner > Formula
+class Xcrunner < Formula
   desc "dynamic sdk tool lookup"
   homepage "https://github.com/samdmarshall/xcrunner"
   head "https://github.com/samdmarshall/xcrunner.git"
