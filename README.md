@@ -1,4 +1,4 @@
-# Sam's homebrew formulae
+# Samantha's homebrew formulae
 
 NOTE: to use this as a tap in brew you will need to be updated to at least commit [`a71d4a9bd25faaeaadbf4b17d8a978ac779105db`](https://github.com/Homebrew/homebrew/commit/a71d4a9bd25faaeaadbf4b17d8a978ac779105db). Please run `brew update` before running `brew tap`.
 
@@ -6,7 +6,7 @@ NOTE: to use this as a tap in brew you will need to be updated to at least commi
 
 Apple Open Source Downloader
 
-* Uses: [v1.0](https://github.com/samdmarshall/AOS-Downloader/releases/tag/v1.0)
+* Uses: [v1.1](https://github.com/samdmarshall/AOS-Downloader/releases/tag/v1.1)
 * Uses: [HEAD](https://github.com/samdmarshall/AOS-Downloader)
 
 ---
