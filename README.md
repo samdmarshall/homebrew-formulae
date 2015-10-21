@@ -6,7 +6,7 @@ NOTE: to use this as a tap in brew you will need to be updated to at least commi
 
 Apple Open Source Downloader
 
-* Uses: [v1.1](https://github.com/samdmarshall/AOS-Downloader/releases/tag/v1.1)
+* Uses: [v1.1.2](https://github.com/samdmarshall/AOS-Downloader/releases/tag/v1.1.2)
 * Uses: [HEAD](https://github.com/samdmarshall/AOS-Downloader)
 
 ---
