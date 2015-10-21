@@ -2,8 +2,8 @@ class Aosd < Formula
   desc "Apple Open Source Downloader"
   homepage "https://github.com/samdmarshall/AOS-Downloader"
   head "https://github.com/samdmarshall/AOS-Downloader.git"
-  url "https://github.com/samdmarshall/AOS-Downloader/archive/v1.1.1.tar.gz"
-  sha256 "d03078bfa2a107a75831c043ce75b8ef5aec3a9eb2f5d1bb94981b885fec5f56"
+  url "https://github.com/samdmarshall/AOS-Downloader/archive/v1.1.2.tar.gz"
+  sha256 "26789c13c8cce25c9d5f8460f50e87112f9a6e9644ab26254f628437b6ad6d30"
   
   
   depends_on :python if MacOS.version <= :snow_leopard
