@@ -2,9 +2,15 @@ class Pyconfig < Formula
 	desc "Tool to generate xcconfig files from a simple DSL"
 	homepage "https://github.com/samdmarshall/pyconfig"
 	head "https://github.com/samdmarshall/pyconfig.git"
-  url "https://github.com/samdmarshall/pyconfig/archive/v1.0.tar.gz"
-  sha256 "630c8e99173fa39128c61c689f40b82e497457435b04b6713eaaabbb2c264f9c"
-
+	
+#	version "1.0"
+#	url "https://github.com/samdmarshall/pyconfig/archive/v1.0.tar.gz"
+#	sha256 "630c8e99173fa39128c61c689f40b82e497457435b04b6713eaaabbb2c264f9c"
+	
+	version "1.0.1"
+	url "https://github.com/samdmarshall/pyconfig/archive/v1.0.1.tar.gz"
+	sha256 "eb75b801dc091986cf784fb5ceaa6b09539ad6103cb246f55ef72bae81ab2ca0"
+	
 	depends_on :python if MacOS.version <= :snow_leopard
 	
 	def install
