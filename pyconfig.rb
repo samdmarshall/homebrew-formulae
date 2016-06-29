@@ -13,7 +13,7 @@ class Pyconfig < Formula
 
 	version "1.0.2"
 	url "https://github.com/samdmarshall/pyconfig/archive/v1.0.2.tar.gz"
-	sha256 "e88be363dcb4ce39459fdd331be89da8a0fbbab7833302af5db99886043f5f8b"
+	sha256 "6a3a0a918e440addb09aae24dd74b7cfaa1edf1f3e5d81acf209290eec26b1b0"
 	
 	depends_on :python if MacOS.version <= :snow_leopard
 	
