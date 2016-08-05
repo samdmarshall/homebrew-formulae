@@ -11,16 +11,20 @@ class Pyconfig < Formula
 #	url "https://github.com/samdmarshall/pyconfig/archive/v1.0.1.tar.gz"
 #	sha256 "eb75b801dc091986cf784fb5ceaa6b09539ad6103cb246f55ef72bae81ab2ca0"
 
-	version "1.0.2"
-	url "https://github.com/samdmarshall/pyconfig/archive/v1.0.2.tar.gz"
-	sha256 "6a3a0a918e440addb09aae24dd74b7cfaa1edf1f3e5d81acf209290eec26b1b0"
-	
+#	version "1.0.2"
+#	url "https://github.com/samdmarshall/pyconfig/archive/v1.0.2.tar.gz"
+#	sha256 "6a3a0a918e440addb09aae24dd74b7cfaa1edf1f3e5d81acf209290eec26b1b0"
+
+	version "1.1"
+	url "https://github.com/samdmarshall/pyconfig/archive/v1.1.tar.gz"
+	sha256 "5013d65b0ae8e7401f5419b2b8d127540ec0da4e2435ea5f284170f55dca3204"
+
 	depends_on :python if MacOS.version <= :snow_leopard
 	
 	def install
 		ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
 		system "python", *Language::Python.setup_install_args(libexec)
-
+		
 		bin.install Dir[libexec/"bin/*"]
 		bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
 	end
