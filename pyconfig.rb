@@ -1,7 +1,7 @@
 class Pyconfig < Formula
 	desc "Tool to generate xcconfig files from a simple DSL"
 	homepage "https://github.com/samdmarshall/pyconfig"
-	head "https://github.com/samdmarshall/pyconfig.git"
+	head "https://github.com/samdmarshall/pyconfig.git", :branch => "develop"
 	
 #	version "1.0"
 #	url "https://github.com/samdmarshall/pyconfig/archive/v1.0.tar.gz"
