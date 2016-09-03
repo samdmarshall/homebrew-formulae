@@ -3,12 +3,13 @@ class Nslocalizer < Formula
   homepage "https://github.com/samdmarshall/nslocalizer"
   head "https://github.com/samdmarshall/nslocalizer.git", :branch => "develop"
 
+  # versions
+  version "1.0"
+  url "https://github.com/samdmarshall/nslocalizer/archive/v1.0.tar.gz"
+  sha256 "0c9d188fc8af9ab11966780cacd8ca3c166e7f641b109446ac9de1c6831e0886"
+
   # dependencies of the tool
   depends_on :python3
-
-  # version "1.0"
-  # url "https://github.com/samdmarshall/nslocalizer/archive/v1.0.tar.gz"
-  # sha256 ""
 
   def install
     pyver = Language::Python.major_minor_version "python3"
