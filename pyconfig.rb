@@ -31,6 +31,9 @@ class Pyconfig < Formula
 	
 	def install
 		ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
+    
+    system "pip", "install", "-r", "requirements.txt"
+    
 		system "python", *Language::Python.setup_install_args(libexec)
 		
 		bin.install Dir[libexec/"bin/*"]
