@@ -28,11 +28,10 @@ class Pyconfig < Formula
 	sha256 "f629a3069d2f5ab6731eccbf9e490d80cf33a463041c0a2703be961b1d1be2e6"
 
 	depends_on :python if MacOS.version <= :snow_leopard
+  	depends_on "pyparsing" => :python
 	
 	def install
 		ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
-    
-    system "pip", "install", "-r", "requirements.txt"
     
 		system "python", *Language::Python.setup_install_args(libexec)
 		
