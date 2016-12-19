@@ -4,9 +4,9 @@ class Nslocalizer < Formula
   head "https://github.com/samdmarshall/nslocalizer.git", :branch => "develop"
 
   # versions
-  version "1.0"
-  url "https://github.com/samdmarshall/nslocalizer/archive/v1.0.tar.gz"
-  sha256 "0c9d188fc8af9ab11966780cacd8ca3c166e7f641b109446ac9de1c6831e0886"
+  version "1.0.1"
+  url "https://github.com/samdmarshall/nslocalizer/archive/v1.0.1.tar.gz"
+  sha256 "06b79d3e54b380bd2e313a64572e5ff838f86511860d2a295dc971399a19696f"
 
   # dependencies of the tool
   depends_on :python3
