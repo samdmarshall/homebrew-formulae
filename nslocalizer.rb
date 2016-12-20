@@ -5,7 +5,7 @@ class Nslocalizer < Formula
 
   # versions
   version "1.0.1"
-  url "https://github.com/samdmarshall/nslocalizer/archive/v1.0.1.tar.gz"
+  url "https://github.com/samdmarshall/nslocalizer/archive/v1.0.1.zip"
   sha256 "06b79d3e54b380bd2e313a64572e5ff838f86511860d2a295dc971399a19696f"
 
   # dependencies of the tool
