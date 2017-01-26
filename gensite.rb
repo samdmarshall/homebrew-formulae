@@ -13,6 +13,7 @@ class Gensite < Formula
 
   bottle do
     root_url "https://pewpewthespells.com/bottles"
+    sha256 "4c46e8cde604adfb0cbc578a91c7107074e13bc27689d87f84c91e710a2dfb5f" => :sierra
   end
 
   # dependencies
