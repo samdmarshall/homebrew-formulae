@@ -1,4 +1,4 @@
-class GenSite < Formula
+class Gensite < Formula
   desc "my static website builder"
   homepage "https://github.com/samdmarshall/gensite"
 
