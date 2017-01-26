@@ -20,6 +20,7 @@ class Gensite < Formula
   depends_on "nim"
 
   def install
+    system "nimble install yaml"
     system "nim compile gensite.nim"
     bin.install "gensite"
   end
