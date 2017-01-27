@@ -15,6 +15,11 @@ class ScanBuild < Formula
     end
   end
 
+  bottle do
+    root_url "https://pewpewthespells.com/bottles"
+    sha256 "6768eb14f658f06162ba4de10fac37e80a0d281179cb68b0665eed56669d6433" => :sierra
+  end
+
   head do
     url "http://llvm.org/svn/llvm-project/llvm/trunk/", :using => :svn
 
