@@ -4,7 +4,7 @@ class Preview < Formula
 
   # v0.1
   ##
-  url "https://github.com/samdmarshall/preview/archive/v0.1.0.tar.gz"
+  url "https://github.com/samdmarshall/preview/archive/v.0.1.tar.gz"
   sha256 "0bdf916607eb9f2bdd59614eb5507d3ba5222bae86bee6b07760e9817b447525"
 
   # --HEAD
