@@ -4,7 +4,7 @@ class C2nim < Formula
 
   # --HEAD
   ##
-  head "git@github.com:nim-lang/c2nim.git"
+  head "https://github.com/nim-lang/c2nim.git"
 
   # dependencies
   ##
