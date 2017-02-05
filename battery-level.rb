@@ -2,7 +2,7 @@ class BatteryLevel < Formula
   desc "securely populate environment variables"
   homepage "https://github.com/samdmarshall/battery-level"
 
-  url "https://github.com/samdmarshall/battery-level/archive/v0.3.tar.gx"
+  url "https://github.com/samdmarshall/battery-level/archive/v0.3.tar.gz"
   sha256 "3fe3aec759172ea208681f6cab1d5c05d51954e35c29277cc67c03c61b30f7d8"
   ##
   #url "https://github.com/samdmarshall/battery-level/archive/v0.2.tar.gz"
