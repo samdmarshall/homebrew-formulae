@@ -14,7 +14,7 @@ class SecureEnv < Formula
   depends_on "nim"
 
   def install
-    system "nimble", "--accept", "install", "yaml"
+    system "nimble", "--accept", "install", "yaml", "tempfile"
     system "nim", "compile", "secureEnv.nim"
     bin.install "secure-env"
   end
