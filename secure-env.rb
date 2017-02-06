@@ -3,7 +3,7 @@ class SecureEnv < Formula
   homepage "https://github.com/samdmarshall/secure-env"
 
   url "https://github.com/samdmarshall/secure-env/archive/v0.3.tar.gz"
-  sha256 "f49d44f1db8f2362d1ed8ea96588b266346402c8748aed9674b92baf5d3b40150"
+  sha256 "f49d44f1db8f2362d1ed8ea96588b266346402c8748aed9674b92baf5d3b4015"
 
   # --HEAD
   ##
