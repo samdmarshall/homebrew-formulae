@@ -2,10 +2,8 @@ class SecureEnv < Formula
   desc "securely populate environment variables"
   homepage "https://github.com/samdmarshall/secure-env"
 
-  # v0.1
-  ##
-  url "https://github.com/samdmarshall/secure-env/archive/v0.2.tar.gz"
-  sha256 "885b27cc6cca04b60354983b58ee4cea07e4b4c6e2d66ef86718603c9a61b5f0"
+  url "https://github.com/samdmarshall/secure-env/archive/v0.3.tar.gz"
+  sha256 "f49d44f1db8f2362d1ed8ea96588b266346402c8748aed9674b92baf5d3b40150"
 
   # --HEAD
   ##
