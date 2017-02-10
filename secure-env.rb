@@ -2,8 +2,8 @@ class SecureEnv < Formula
   desc "securely populate environment variables"
   homepage "https://github.com/samdmarshall/secure-env"
 
-  url "https://github.com/samdmarshall/secure-env/archive/v0.3.tar.gz"
-  sha256 "f49d44f1db8f2362d1ed8ea96588b266346402c8748aed9674b92baf5d3b4015"
+  url "https://github.com/samdmarshall/secure-env/archive/v0.4.tar.gz"
+  sha256 "f472057ec4b44b0d2dd499e52dbddff695c675a52607d7721192ad6c65078ebd"
 
   # --HEAD
   ##
@@ -14,7 +14,7 @@ class SecureEnv < Formula
   depends_on "nim"
 
   def install
-    system "nimble", "--accept", "install", "yaml", "tempfile"
+    system "nimble", "--accept", "install", "yaml"
     system "nim", "compile", "secureEnv.nim"
     bin.install "secure-env"
   end
