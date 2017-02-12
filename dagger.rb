@@ -5,7 +5,6 @@ class Dagger < Formula
   head "https://github.com/repzret/dagger.git"
 
   depends_on "cmake" => :build
-  depends_on "subversion" => :build
 
   def install
     mkdir "build" do
