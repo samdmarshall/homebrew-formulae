@@ -1,5 +1,5 @@
 class BatteryLevel < Formula
-  desc "securely populate environment variables"
+  desc "easy access to current macbook battery levels on the command line"
   homepage "https://github.com/samdmarshall/battery-level"
 
   url "https://github.com/samdmarshall/battery-level/archive/v0.3.tar.gz"
