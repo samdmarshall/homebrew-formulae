@@ -2,8 +2,10 @@ class BatteryLevel < Formula
   desc "easy access to current macbook battery levels on the command line"
   homepage "https://github.com/samdmarshall/battery-level"
 
-  url "https://github.com/samdmarshall/battery-level/archive/v0.4.tar.gz"
-  sha256 "d7620af5a9a6f136ce949aaf92f21a06e9b4729045c21cd64564c0462c740f5c"
+  url "https://github.com/samdmarshall/battery-level/archive/v0.4.1.tar.gz"
+  sha256 "fbf04092ab982ad86aefcb471dedb25e77361e39ab918c0baf2d0201fdda2420"
+  # url "https://github.com/samdmarshall/battery-level/archive/v0.4.tar.gz"
+  # sha256 "d7620af5a9a6f136ce949aaf92f21a06e9b4729045c21cd64564c0462c740f5c"
   # url "https://github.com/samdmarshall/battery-level/archive/v0.3.tar.gz"
   # sha256 "3fe3aec759172ea208681f6cab1d5c05d51954e35c29277cc67c03c61b30f7d8"
   ##
