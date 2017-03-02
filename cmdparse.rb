@@ -1,4 +1,4 @@
-class cmdparse < Formula
+class Cmdparse < Formula
   desc "posting data from the command line into influxdb"
   homepage "https://github.com/samdmarshall/cmd-parse"
 
