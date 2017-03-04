@@ -1,5 +1,5 @@
 class Cmdparse < Formula
-  desc "posting data from the command line into influxdb"
+  desc "posting data from the command-line into influxdb"
   homepage "https://github.com/samdmarshall/cmd-parse"
 
   # --HEAD
@@ -11,6 +11,7 @@ class Cmdparse < Formula
   depends_on "nim"
 
   def install
+    system "nimble", "install", "https://github.com/samdmarshall/influx.nim", "--accept"
     system "nim", "compile", "cmdparse.nim"
     bin.install "cmdparse"
   end
