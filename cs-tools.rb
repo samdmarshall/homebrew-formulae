@@ -4,7 +4,7 @@ class CsTools < Formula
 
   # head
   ##
-  head "https://github.com/samdmarshall/cs-tools.git"
+  head "https://github.com/samdmarshall/cs-tools.git", :branch => "develop" 
 
   def install
     system "make"
