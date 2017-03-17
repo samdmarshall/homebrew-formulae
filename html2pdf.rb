@@ -1,6 +1,6 @@
 class Html2pdf < Formula
   desc "html->pdf converter"
-  homepage "https://github.com/samdmarshall/html2pdf", :branch => "develop"
+  homepage "https://github.com/samdmarshall/html2pdf"
   head "https://github.com/samdmarshall/html2pdf.git"
   
   url "https://github.com/samdmarshall/html2pdf/archive/v1.1.tar.gz"
