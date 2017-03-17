@@ -1,10 +1,10 @@
 class Html2pdf < Formula
   desc "html->pdf converter"
-  homepage "https://github.com/samdmarshall/html2pdf"
+  homepage "https://github.com/samdmarshall/html2pdf", :branch => "develop"
   head "https://github.com/samdmarshall/html2pdf.git"
   
-  url "https://github.com/samdmarshall/html2pdf/archive/v1.0.1.tar.gz"
-  sha256 "e40c9dfe9710f5b5a9590dba1c04ca1c44036d1c04ebee2f31d339b0c24b8f66"
+  url "https://github.com/samdmarshall/html2pdf/archive/v1.1.tar.gz"
+  sha256 "15ec23a0effe1ed3bd5bb45066bbb2e343094fb67563909531de173a962d4683"
   
   def install
     system "make"
