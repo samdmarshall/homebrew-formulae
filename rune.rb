@@ -2,8 +2,8 @@ class Rune < Formula
   desc "securely populate environment variables"
   homepage "https://github.com/samdmarshall/rune"
 
-  url "https://github.com/samdmarshall/rune/archive/v0.5.1.tar.gz"
-  sha256 "e52e01e595a7c19cb4388671c55d8c12bd1830384cd2d4875d86511ab32b4abd"
+  url "https://github.com/samdmarshall/rune/archive/v0.5.2.tar.gz"
+  sha256 "e324943d1c160bd7cb4fe3ea30012af7e72b0b0e6d3a3345bd47c56b50666bb2"
 
   # --HEAD
   ##
