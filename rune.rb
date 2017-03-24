@@ -15,6 +15,7 @@ class Rune < Formula
 
   def install
     system "nimble", "--accept", "install", "yaml"
+    system "nimble", "install"
     system "nimble", "build_cli"
     bin.install "rune"
   end
