@@ -14,7 +14,7 @@ class Grimoire < Formula
   depends_on "nim"
 
   def install
-    system "nimble", "install", "https://github.com/samdmarshall/rune"
+    system "nimble", "install", "https://github.com/samdmarshall/rune", "--accept"
     system "nimble", "build"
     bin.install "grimoire"
   end
