@@ -2,8 +2,10 @@ class Grimoire < Formula
   desc "securely use environment variables"
   homepage "https://github.com/samdmarshall/grimoire"
 
-  url "https://github.com/samdmarshall/grimoire/archive/v0.2.1.tar.gz"
-  sha256 "c15dcbccc5e6ba99435f588a097d3cdd2c244f21f89492ae4f3f6647fa955529"
+  url "https://github.com/samdmarshall/grimoire/archive/v0.2.2.tar.gz"
+  sha256 "06e645ab7d01035aa2b88a5d6fa02e3680b8b0969b74c109478539ef6d916602"
+  #url "https://github.com/samdmarshall/grimoire/archive/v0.2.1.tar.gz"
+  #sha256 "c15dcbccc5e6ba99435f588a097d3cdd2c244f21f89492ae4f3f6647fa955529"
   #url "https://github.com/samdmarshall/grimoire/archive/v0.2.tar.gz"
   #sha256 "10ab94a36fd6a7f017b6c5e8cce971fd9568df5270e9f36211d5e7349110ecfb"
   #url "https://github.com/samdmarshall/grimoire/archive/v0.1.4.tar.gz"
