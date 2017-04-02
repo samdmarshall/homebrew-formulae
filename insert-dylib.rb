@@ -7,8 +7,8 @@ class InsertDylib < Formula
   head "https://github.com/Tyilo/insert_dylib.git"
 
   def install
-    system "clang", "-x", "c", "insert_dylib/main.c", "-o", "insert_dylib"
-    bin.install "insert_dylib"
+    system "xcrun", "clang", "-x", "c", "-arch", "x86_64", "./insert_dylib/main.c", "-I/usr/include/", "-o", "insert-dylib"
+    bin.install "insert-dylib"
   end
   
 end
