@@ -1,5 +1,5 @@
 class InsertDylib < Formula
-  desc "insert-dylib"
+  desc "insert dylibs into existing binaries"
   homepage "https://github.com/Tyilo/insert_dylib"
 
   # head

@@ -1,5 +1,5 @@
 class Makepy < Formula
-  desc "Apple Open Source Downloader"
+  desc "rewrite of `make` in Python"
   homepage "https://bitbucket.org/runhello/makepy"
   
   head "https://bitbucket.org/runhello/makepy", :using => :hg
