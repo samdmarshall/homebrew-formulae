@@ -4,7 +4,7 @@ class Bugmatic < Formula
   head "https://github.com/uliwitness/bugmatic.git"
   
   def install
-      system "make"
-      bin.install "bugmatic"
+      system "make", "all"
+      bin.install "products/bugmatic"
     end
 end
