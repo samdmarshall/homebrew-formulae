@@ -27,8 +27,13 @@ class Pyconfig < Formula
 	# url "https://github.com/samdmarshall/pyconfig/archive/v1.1.2.tar.gz"
 	# sha256 "f629a3069d2f5ab6731eccbf9e490d80cf33a463041c0a2703be961b1d1be2e6"
 
-  url "https://github.com/samdmarshall/pyconfig/archive/v1.1.3.tar.gz"
-  sha256 "b7d5e7f0e6579d627dba330e5e8f24815be7a3e215c26220a343f9d7531ccf4b"
+# version "1.1.3"
+#  url "https://github.com/samdmarshall/pyconfig/archive/v1.1.3.tar.gz"
+#  sha256 "b7d5e7f0e6579d627dba330e5e8f24815be7a3e215c26220a343f9d7531ccf4b"
+
+# version "1.1.3.1"
+url "https://github.com/samdmarshall/pyconfig/archive/v1.1.3.1.tar.gz"
+sha256 "a7b221474d8cf472ca22df78ddccb3f4004d0b8ee5a74cbd6606e2c6b343c0bd"
 
 	depends_on :python if MacOS.version <= :snow_leopard
   depends_on "pyparsing" => :python
