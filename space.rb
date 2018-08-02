@@ -4,7 +4,7 @@ class Space < Formula
   head "https://github.com/samdmarshall/space.git"
 
   # dependencies of the tool
-  depends_on :python3
+  depends_on ':python3'
 
   def install
     pyver = Language::Python.major_minor_version "python3"
