@@ -8,7 +8,7 @@ class Afew < Formula
   head "https://github.com/afewmail/afew.git"
 
    # dependencies of the tool
-  depends_on :python3
+  depends_on 'python3'
   depends_on "notmuch" => "with-python3"
 
   def install
