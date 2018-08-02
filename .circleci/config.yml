@@ -1,0 +1,8 @@
+version: 2
+jobs:
+  validate:
+    steps:
+      - checkout
+      - run:
+          name: audit formulae
+          command: find . -name "*.rb" -exec brew audit \;
