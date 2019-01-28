@@ -24,7 +24,7 @@ class BatteryLevel < Formula
   depends_on "nim"
 
   def install
-    system "nim", "compile", "BatteryLevel.nim"
+    system "nimble" "build"
     bin.install "battery-level"
   end
 
