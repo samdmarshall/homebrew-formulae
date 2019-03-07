@@ -13,7 +13,7 @@ class Plistprocessor < Formula
 
   depends_on "pbPlist" => :python
   depends_on "biplist" => :python
-  depends_on :python if MacOS.version <= :snow_leopard
+  depends_on "python"
   
   def install
     ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"

@@ -35,7 +35,7 @@ class Pyconfig < Formula
 url "https://github.com/samdmarshall/pyconfig/archive/v1.1.3.1.tar.gz"
 sha256 "a7b221474d8cf472ca22df78ddccb3f4004d0b8ee5a74cbd6606e2c6b343c0bd"
 
-	depends_on :python if MacOS.version <= :snow_leopard
+	depends_on "python"
   depends_on "pyparsing" => 'python'
 	
 	def install
