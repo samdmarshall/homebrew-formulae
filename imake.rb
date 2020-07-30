@@ -3,7 +3,7 @@ class Imake < Formula
   homepage "https://xorg.freedesktop.org"
   url "https://xorg.freedesktop.org/releases/individual/util/imake-1.0.8.tar.bz2"
   sha256 "b8d2e416b3f29cd6482bcffaaf19286d32917a164d07102a0e531ccd41a2a702"
-  revision 1
+  revision 2
 
   depends_on "pkg-config" => :build
   depends_on "gcc"
@@ -16,6 +16,12 @@ class Imake < Formula
 
   def install
     ENV.deparallelize
+
+    # imake runtime is broken when used with clang's cpp
+    cpp_program = Formula["gcc"].opt_bin/"cpp-#{Formula["gcc"].version_suffix}"
+
+    # also use gcc's cpp during buildtime to pass ./configure checks
+    ENV["RAWCPP"] = cpp_program
 
     system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
     system "make", "install"
